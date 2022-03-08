@@ -1,0 +1,39 @@
+.container{
+    border-style: solid;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 850px;
+    padding-right: 40px;
+    border-radius: 70px;
+    border: 5px solid rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient(rgb(101, 182, 154), rgb(50, 84, 72), black);
+    box-shadow: 0 4px 8px 4px black;
+}
+
+.paginado {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.pageBtn {
+    border-radius: 10px;
+    height: 25px;
+    width: 30px;
+    color: rgb(240, 185, 7);
+    border: 2px solid rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(52, 56, 54);
+}
+
+.pageBtn:hover {
+    cursor: pointer;
+    background-color: rgb(103, 111, 107);;   
+}
+
+.pageBtn:focus {
+    background-color: rgb(134, 145, 139);
+}

@@ -1,0 +1,265 @@
+.backgroundDiv {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    height: 757px;
+    width: 1600px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 80px;
+    color: black;
+    box-shadow: 0 4px 8px 4px white;
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+} 
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding-top: 5px;
+    height: 30px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px black;
+    border-radius: 10px;
+}
+
+.input2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    margin-top: 5px;
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px black;
+    border-radius: 10px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 25px;
+    width: 150px;
+    border: 5px solid rgb(213, 87, 87);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: white;
+    border: 6px solid white;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+
+.button2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 25px;
+    width: 150px;
+    border: 5px solid rgb(36, 235, 125);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    color: white;
+    border: 6px solid white;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+
+.selectedCountries {
+    position: relative;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    background-image: radial-gradient(rgb(101, 182, 154), rgb(50, 84, 72), black);
+    box-shadow: 0 4px 8px 4px rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+.select {
+    border-radius: 15px;
+    padding-top: 5px;
+    width: 270px;
+}
+
+.selectedTitle {
+    height: 3em;
+    margin: 5px;
+}
+
+.selectedTitle2 {
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.flag {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 5em;
+    box-shadow: 0 4px 8px 4px black;
+}
+
+.close {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+    border-radius: 20px;
+    position: absolute;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.createButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    left: 80px;
+    content: "Home";
+    background-color: transparent;
+    color: rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    height: 35px;
+    width: 180px;
+    border: 5px solid rgb(225, 215, 215);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.createButton:hover {
+    cursor: pointer;
+    color: white;
+    border: 6px solid white;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+
+.title {
+    height: 3em;
+}
+
+.title2 {
+    height: 5em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.home{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    width: 105em;
+    height: 35px;
+    margin: 15px;
+    top: 10px;
+
+}
+.homeA{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.homeA:before,
+.homeA:after{
+    position: absolute;
+    content: "Home";
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+.homeA:before{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);    
+    transform: rotateY(0deg) translateZ(25px);
+}
+.homeA:after{
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    transform: rotateX(90deg) translateZ(25px);
+}
+.homeA:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}

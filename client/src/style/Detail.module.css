@@ -1,0 +1,142 @@
+.backgroundDiv {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    height: 757px;
+    width: 1600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 70px;
+    color: white;
+    box-shadow: 0 4px 8px 4px black;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.detailContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 20em;
+    box-shadow: 0 4px 8px 4px black;
+}
+
+.detailDiv{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding-top: 5px;
+
+    width: 280px;
+    box-shadow: 0 4px 8px 4px black;
+    border-radius: 10px;
+}
+
+.detailAct{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding-top: 5px;
+    padding: 5px;
+    width: 280px;
+    box-shadow: 0 4px 8px 4px black;
+    border-radius: 10px;
+}
+
+.detailAct h5{
+   margin: 5px;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: rgb(225, 215, 215);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 25px;
+    width: 150px;
+    border: 5px solid rgb(213, 87, 87);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: white;
+    border: 6px solid white;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+
+.home{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    width: 104em;
+    height: 35px;
+    margin: 15px;
+    top: 5px;
+
+}
+.homeA{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.homeA:before,
+.homeA:after{
+    position: absolute;
+    content: "Home";
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
+}
+.homeA:before{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);    
+    transform: rotateY(0deg) translateZ(25px);
+}
+.homeA:after{
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    transform: rotateX(90deg) translateZ(25px);
+}
+.homeA:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
