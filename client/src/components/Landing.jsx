@@ -15,12 +15,12 @@ export default function Landing() {
                     <div>
                         <img className={style.title_2} src="https://fontmeme.com/permalink/211206/20b05dc459ab014b62ef314de159462d.png" alt="app" border="0" />
                     </div>
-                    <div className={style.pokeButton}>
+                    <div className={style.earthButton}>
                         <Link to='/home' >
                             <img src={go} alt="" className={style.go} /> 
                         </Link>
                     </div>
-                    <div>
+                    <div  className={style.goButton}>
                         <Link to='/home' >    
                             <img className={style.letsGo} src="https://fontmeme.com/permalink/211206/320205b1cdd7630a7535f9c340630783.png" alt="fuente-pokemon" border="0"/>
                         </Link>

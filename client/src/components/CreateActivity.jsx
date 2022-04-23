@@ -62,8 +62,7 @@ export default function CreateActivity() {
             [e.target.name]: e.target.value,
           }))
     }
-    console.log(details.countries)
-    console.log(details)
+    
     function handleSubmit(e) {
         e.preventDefault()
         setErrors(validate({

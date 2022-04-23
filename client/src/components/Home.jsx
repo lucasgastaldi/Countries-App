@@ -60,7 +60,7 @@ export default function Home() {
                 <div className={style.logo}>    
                     <img className={style.title} src="https://fontmeme.com/permalink/211206/5cf77a2e533e70f38991f8806d65bf45.png" alt="countries" border="0" />
                 </div>
-                <div>
+                <div className={style.navButtons}>
                     <Link to='/activities'>
                         <span className={style.createButton}><a className={style.createButtonA}></a></span>
                     </Link>
