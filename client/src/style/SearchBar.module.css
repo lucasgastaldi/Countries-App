@@ -44,6 +44,5 @@
 .button:hover {
     cursor: pointer;
     color: white;
-    border: 6px solid white;
-    box-shadow: 0 2px 14px 4px rgb(211, 200, 200);
-}
+    border: 6px solid rgb(123, 230, 171);
+    box-shadow: 0 1px 6px 0px rgb(255, 255, 255);}
