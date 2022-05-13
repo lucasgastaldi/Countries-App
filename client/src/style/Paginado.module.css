@@ -6,9 +6,7 @@
     width: 850px;
     padding-right: 40px;
     border-radius: 70px;
-    border: 5px solid rgb(225, 215, 215);
     font-family: 'Montserrat', sans-serif;
-    background-image: radial-gradient(rgb(101, 182, 154), rgb(50, 84, 72), black);
     box-shadow: 0 4px 8px 4px black;
 }
 
